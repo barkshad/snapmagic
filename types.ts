@@ -1,7 +1,7 @@
 
 export type PhotoStatus = 'pending' | 'processing' | 'done' | 'error';
 
-export type FilterType = 'one-tap' | 'cinematic' | 'vintage' | 'vibrant' | 'soft-glow';
+export type AITool = 'one-tap' | 'cinematic' | 'vintage' | 'vibrant' | 'soft-glow' | 'remove-object' | 'custom';
 
 export interface Photo {
   id: string;
