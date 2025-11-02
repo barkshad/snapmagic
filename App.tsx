@@ -24,10 +24,10 @@ interface Tool {
 
 const TOOLS: Tool[] = [
     { id: 'one-tap', name: 'One-Tap', icon: MagicWandIcon, needsPrompt: false },
-    { id: 'remove-object', name: 'Remove', icon: EraserIcon, needsPrompt: true, promptPlaceholder: 'e.g., "the person in the red shirt"' },
-    { id: 'custom', name: 'Custom', icon: SparklesIcon, needsPrompt: true, promptPlaceholder: 'e.g., "make the sky a dramatic sunset"' },
     { id: 'cinematic', name: 'Cinematic', icon: FilmIcon, needsPrompt: false },
     { id: 'vintage', name: 'Vintage', icon: CameraIcon, needsPrompt: false },
+    { id: 'remove-object', name: 'Remove', icon: EraserIcon, needsPrompt: true, promptPlaceholder: 'e.g., "the person in the red shirt"' },
+    { id: 'custom', name: 'Custom', icon: SparklesIcon, needsPrompt: true, promptPlaceholder: 'e.g., "make the sky a dramatic sunset"' },
 ];
 
 const getPromptForTool = (tool: AITool, customText: string): string => {
